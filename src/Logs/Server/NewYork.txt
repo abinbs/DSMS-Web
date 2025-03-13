@@ -1,0 +1,32 @@
+DATE: 2025-03-13 03:19:29 p.m.  Server is Up & Running
+DATE: 2025-03-13 03:19:29 p.m.  UDP Server Started at port 8523
+DATE: 2025-03-13 03:22:03 p.m.  Server is Up & Running
+DATE: 2025-03-13 03:22:04 p.m.  UDP Server Started at port 8523
+DATE: 2025-03-13 03:22:33 p.m. ClientID: Admin | RequestType:  RMI addShare  | RequestParameters:  shareId: NYKM090225 shareType: Equity added 20  | ServerResponse: Success: Share NYKM090225 added successfully
+DATE: 2025-03-13 03:22:36 p.m. ClientID: Admin | RequestType:  UDP request sent listShareAvailability  | RequestParameters:  shareId: null shareType: Equity  | ServerResponse:  ... 
+DATE: 2025-03-13 03:22:37 p.m. ClientID: Admin | RequestType:  UDP reply receivedlistShareAvailability  | RequestParameters:  shareID: null shareType: Equity  | ServerResponse: LONDON Server Equity:
+No shares of Type Equity
+=====================================
+DATE: 2025-03-13 03:22:37 p.m. ClientID: Admin | RequestType:  UDP request sent listShareAvailability  | RequestParameters:  shareId: null shareType: Equity  | ServerResponse:  ... 
+DATE: 2025-03-13 03:22:37 p.m. ClientID: Admin | RequestType:  UDP reply receivedlistShareAvailability  | RequestParameters:  shareID: null shareType: Equity  | ServerResponse: TOKYO Server Equity:
+No shares of Type Equity
+=====================================
+DATE: 2025-03-13 03:22:37 p.m. ClientID: Admin | RequestType:  RMI listShareAvailability  | RequestParameters:  shareType: Equity  | ServerResponse: NEWYORK Server Equity:
+Share ID: NYKM090225 | Date: 09/02/2025 | Time Slot: Morning | Capacity: 20 [Remaining: 20] || 
+=====================================
+LONDON Server Equity:
+No shares of Type Equity
+=====================================TOKYO Server Equity:
+No shares of Type Equity
+=====================================
+DATE: 2025-03-13 03:22:56 p.m. ClientID: TOKB1234 | RequestType:  RMI purchaseShare  | RequestParameters:  shareId: NYKM090225 shareType: Equity  | ServerResponse: Success: Purchased 10 Shares of NYKM090225 Successfully
+DATE: 2025-03-13 03:22:56 p.m. ClientID: TOKB1234 | RequestType:  UDP reply sent PurchaseShare | RequestParameters:  shareId: NYKM090225 shareType: Equity | ServerResponse: Success: Purchased 10 Shares of NYKM090225 Successfully{TOKB1234={Equity=[NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225]}}
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP reply sent getShares | RequestParameters:  shareId: null shareType: null | ServerResponse: NEWYORK Server - Shares for Buyer: TOKB1234
+Share Type: Equity -> NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 
+
+=====================================
+
+DATE: 2025-03-13 03:23:13 p.m. ClientID: Admin | RequestType:  UDP reply sent listShareAvailability | RequestParameters:  shareId: null shareType: Equity | ServerResponse: NEWYORK Server Equity:
+Share ID: NYKM090225 | Date: 09/02/2025 | Time Slot: Morning | Capacity: 20 [Remaining: 10] || 
+=====================================
+

@@ -1,0 +1,45 @@
+DATE: 2025-03-13 03:19:29 p.m.  Server is Up & Running
+DATE: 2025-03-13 03:19:29 p.m.  UDP Server Started at port 8525
+DATE: 2025-03-13 03:22:03 p.m.  Server is Up & Running
+DATE: 2025-03-13 03:22:04 p.m.  UDP Server Started at port 8525
+DATE: 2025-03-13 03:22:37 p.m. ClientID: Admin | RequestType:  UDP reply sent listShareAvailability | RequestParameters:  shareId: null shareType: Equity | ServerResponse: TOKYO Server Equity:
+No shares of Type Equity
+=====================================
+
+DATE: 2025-03-13 03:22:56 p.m. ClientID: TOKB1234 | RequestType:  UDP request sent PurchaseShare  | RequestParameters:  shareId: NYKM090225 shareType: Equity  | ServerResponse:  ... 
+DATE: 2025-03-13 03:22:56 p.m. ClientID: TOKB1234 | RequestType:  UDP reply receivedPurchaseShare  | RequestParameters:  shareID: NYKM090225 shareType: Equity  | ServerResponse: Success: Purchased 10 Shares of NYKM090225 Successfully{TOKB1234={Equity=[NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225]}}
+DATE: 2025-03-13 03:22:56 p.m. ClientID: TOKB1234 | RequestType:  RMI purchaseShare  | RequestParameters:  shareId: NYKM090225 shareType: Equity  | ServerResponse: Success: Purchased 10 Shares of NYKM090225 Successfully{TOKB1234={Equity=[NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225]}}
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP request sent getShares  | RequestParameters:  shareId: null shareType: null  | ServerResponse:  ... 
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP reply receivedgetShares  | RequestParameters:  shareID: null shareType: null  | ServerResponse: NEWYORK Server - Shares for Buyer: TOKB1234
+Share Type: Equity -> NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 
+
+=====================================
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP request sent getShares  | RequestParameters:  shareId: null shareType: null  | ServerResponse:  ... 
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP reply receivedgetShares  | RequestParameters:  shareID: null shareType: null  | ServerResponse: LONDON Server - Shares for Buyer: TOKB1234
+No shares owned by Buyer TOKB1234
+
+=====================================
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP request sent getShares  | RequestParameters:  shareId: null shareType: null  | ServerResponse:  ... 
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP reply sent getShares | RequestParameters:  shareId: null shareType: null | ServerResponse: TOKYO Server - Shares for Buyer: TOKB1234
+No shares owned by Buyer TOKB1234
+
+=====================================
+
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP reply receivedgetShares  | RequestParameters:  shareID: null shareType: null  | ServerResponse: TOKYO Server - Shares for Buyer: TOKB1234
+No shares owned by Buyer TOKB1234
+
+=====================================
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  RMI getShares  | RequestParameters:  userId: TOKB1234  | ServerResponse: NEWYORK Server - Shares for Buyer: TOKB1234
+Share Type: Equity -> NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 
+
+=====================================LONDON Server - Shares for Buyer: TOKB1234
+No shares owned by Buyer TOKB1234
+
+=====================================TOKYO Server - Shares for Buyer: TOKB1234
+No shares owned by Buyer TOKB1234
+
+=====================================
+DATE: 2025-03-13 03:23:13 p.m. ClientID: Admin | RequestType:  UDP reply sent listShareAvailability | RequestParameters:  shareId: null shareType: Equity | ServerResponse: TOKYO Server Equity:
+No shares of Type Equity
+=====================================
+

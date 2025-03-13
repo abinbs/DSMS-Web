@@ -1,0 +1,28 @@
+DATE: 2025-03-13 03:19:29 p.m.  Server is Up & Running
+DATE: 2025-03-13 03:19:29 p.m.  UDP Server Started at port 8524
+DATE: 2025-03-13 03:22:03 p.m.  Server is Up & Running
+DATE: 2025-03-13 03:22:04 p.m.  UDP Server Started at port 8524
+DATE: 2025-03-13 03:22:37 p.m. ClientID: Admin | RequestType:  UDP reply sent listShareAvailability | RequestParameters:  shareId: null shareType: Equity | ServerResponse: LONDON Server Equity:
+No shares of Type Equity
+=====================================
+
+DATE: 2025-03-13 03:22:58 p.m. ClientID: TOKB1234 | RequestType:  UDP reply sent getShares | RequestParameters:  shareId: null shareType: null | ServerResponse: LONDON Server - Shares for Buyer: TOKB1234
+No shares owned by Buyer TOKB1234
+
+=====================================
+
+DATE: 2025-03-13 03:23:13 p.m. ClientID: Admin | RequestType:  UDP request sent listShareAvailability  | RequestParameters:  shareId: null shareType: Equity  | ServerResponse:  ... 
+DATE: 2025-03-13 03:23:13 p.m. ClientID: Admin | RequestType:  UDP reply receivedlistShareAvailability  | RequestParameters:  shareID: null shareType: Equity  | ServerResponse: NEWYORK Server Equity:
+Share ID: NYKM090225 | Date: 09/02/2025 | Time Slot: Morning | Capacity: 20 [Remaining: 10] || 
+=====================================
+DATE: 2025-03-13 03:23:13 p.m. ClientID: Admin | RequestType:  UDP request sent listShareAvailability  | RequestParameters:  shareId: null shareType: Equity  | ServerResponse:  ... 
+DATE: 2025-03-13 03:23:13 p.m. ClientID: Admin | RequestType:  UDP reply receivedlistShareAvailability  | RequestParameters:  shareID: null shareType: Equity  | ServerResponse: TOKYO Server Equity:
+No shares of Type Equity
+=====================================
+DATE: 2025-03-13 03:23:13 p.m. ClientID: Admin | RequestType:  RMI listShareAvailability  | RequestParameters:  shareType: Equity  | ServerResponse: LONDON Server Equity:
+No shares of Type Equity on LONDON Server
+NEWYORK Server Equity:
+Share ID: NYKM090225 | Date: 09/02/2025 | Time Slot: Morning | Capacity: 20 [Remaining: 10] || 
+=====================================TOKYO Server Equity:
+No shares of Type Equity
+=====================================

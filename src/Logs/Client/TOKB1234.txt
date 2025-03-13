@@ -1,0 +1,17 @@
+DATE: 2025-03-13 03:22:46 p.m.  login attempt
+DATE: 2025-03-13 03:22:46 p.m.  User Login successful
+DATE: 2025-03-13 03:22:56 p.m.  attempting to purchaseShare
+DATE: 2025-03-13 03:22:56 p.m. Client Action: purchaseShare | RequestParameters:  shareId: NYKM090225 shareType: Equity  | Server Response: Success: Purchased 10 Shares of NYKM090225 Successfully{TOKB1234={Equity=[NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225, NYKM090225]}}{TOKB1234={}}
+DATE: 2025-03-13 03:22:58 p.m.  attempting to getShare
+DATE: 2025-03-13 03:22:58 p.m. Client Action: getShare | RequestParameters:  null  | Server Response: NEWYORK Server - Shares for Buyer: TOKB1234
+Share Type: Equity -> NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 NYKM090225 
+
+=====================================LONDON Server - Shares for Buyer: TOKB1234
+No shares owned by Buyer TOKB1234
+
+=====================================TOKYO Server - Shares for Buyer: TOKB1234
+No shares owned by Buyer TOKB1234
+
+=====================================
+DATE: 2025-03-13 03:23:04 p.m.  attempting to logout
+DATE: 2025-03-13 03:23:21 p.m.  UserId is not in correct format

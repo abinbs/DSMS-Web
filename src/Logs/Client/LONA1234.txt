@@ -1,0 +1,4 @@
+DATE: 2025-03-13 03:23:10 p.m.  login attempt
+DATE: 2025-03-13 03:23:10 p.m.  Admin Login successful
+DATE: 2025-03-13 03:23:12 p.m.  attempting to shareListAvailability
+DATE: 2025-03-13 03:23:17 p.m.  attempting to logout
